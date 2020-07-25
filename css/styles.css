@@ -63,4 +63,17 @@
   height: 500px;
 }
 
+.what-we-do {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 1275px;
+}
+.what-we-do h1 {
+  color: black;
+  font-size: 40px;
+  white-space: nowrap;
+  line-height: 2cm;
+}
 
