@@ -23,3 +23,44 @@
   color: white;
   font-size: 28px;
 }
+.about_us {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 120%;
+  
+}
+.about_us p  {
+  color: black;
+  font-size: 30px;
+  white-space: nowrap;
+  line-height: 2cm;
+}
+.services {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 350px;
+  
+}
+.services p {
+  color: white;
+  font-size: 30px;
+  white-space: nowrap;
+  line-height: 2cm;
+}
+
+.services h1 {
+  color: white;
+  font-size: 40px;
+  white-space: nowrap;
+  line-height: 2cm;
+}
+.jumbotron  {
+  background-color: white;
+  height: 500px;
+}
+
+
