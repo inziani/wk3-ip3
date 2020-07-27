@@ -119,7 +119,18 @@
 .contact_us {
   position: absolute;
   top: 265%;
+  text-align: justify;
+  color: white;
 }
+.contact_us h1 {
+  color: white;
+  font-size: 40px;
+  white-space: nowrap;
+  line-height: 2cm;
+
+}
+
+
 
 
 
