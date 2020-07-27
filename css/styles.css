@@ -90,13 +90,30 @@
   display: block;
 }
 
-.Portfolio {
+.Portfolio_text {
   position: absolute;
   text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
   top: 2900px;
-
 }
+.Portfolio_one {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 230%;
+}
+
+
+.Portfolio_two {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 250%;
+}
+
+
 
 
