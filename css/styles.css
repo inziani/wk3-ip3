@@ -28,7 +28,7 @@
   text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 120%;
+  top: 115%;
   
 }
 .about_us p  {
@@ -42,7 +42,7 @@
   text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 350px;
+  top: 55%;
   
 }
 .services p {
@@ -68,7 +68,7 @@
   text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 2600px;
+  top: 178%;
 }
 .what-we-do h1 {
   color: black;
@@ -78,11 +78,9 @@
 }
 .products {
   position: relative;
-  margin-top: 30px;
-  top: 150px;
+  margin-top: 5%;
   text-align: center;
   margin-bottom: 30px;
- 
 }
 .products img {
   width: fit-content;
@@ -95,40 +93,39 @@
   text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 2900px;
+  top:195%
 }
 .Portfolio_one {
   position: absolute;
   text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 230%;
+  top: 205%;
 }
-
 
 .Portfolio_two {
   position: absolute;
   text-align: center;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 250%;
+  top: 223%;
 }
 .contact_us img{
   width: 100%;
 }
 .contact_us {
-  position: absolute;
-  top: 265%;
-  text-align: justify;
+  position: relative;
+  text-align: center;
   color: white;
+  margin-top: 25%;
+  top: 5%;
 }
 .contact_us h1 {
-  color: white;
-  font-size: 40px;
+  color:black;
   white-space: nowrap;
   line-height: 2cm;
-
 }
+
 
 
 
