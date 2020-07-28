@@ -9,17 +9,15 @@
 </head>
 <body>
   <div class="container-fluid landing-page">
-    <img src="./img/backgrounds/h_img.jpg" alt="">
     <div class="description">
       <h1>WELCOME <br>TO DELANI STUDIO</h1>
       <p> AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
     </div>
   </div>
-
-    <section>
-      <div class="jumbotron jumbotron-fluid"> 
+  <br>
+      <div class="jumbotron about_us jumbotron-fluid"> 
         <div class="container-fluid">
-          <div class="about_us">
+          <div class="aboutus">
             <h1>ABOUT US</h1>
             <P>When you work with us, you are a part of a team of commited collaborators. All aspects of our software development process are intergrated, interactive<br>
             and agile.<br>Our approach unifies design, development and product management to create exceptional products.<br>
@@ -27,8 +25,8 @@
         The we help translate them into effective and elegant solutions</P>
       </div> 
         </div>
-  </section> 
-  <div class="container-fluid landing-page">
+      </div>
+  <div class="container-fluid landin-page">
     <img src="./img/backgrounds/s_image.jpg" alt="">
   <div class="services">
     <h1>SERVICES</h1>
@@ -38,27 +36,41 @@
     </p>
   </div>
   </div>
+
   <div class="what-we-do">
     <h1>WHAT WE DO</h1> </div>
   <div class="container products">
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-12">
         <img src="./img/services_icons/design_icon.png" class="img-fluid" alt="">
-        <h3>DESIGN</h3>
+        <h3><span class="design">DESIGN</span></h3> 
+     <p class="design_text">Our design practice offers a full range of services including brand strategy, 
+       interaction and visual design and user experience testing. Throughout your project, our designers 
+       create and implement visual design and workflows, solicit user feedback and work with you to make 
+       sure what gets built is what is needed</p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12">
         <img src="img/services_icons/dev_icon.png" class="img-fluid" alt="">
-        <h3>DEVELOPMENT</h3>
+        <h3><span class="development">DEVELOPMENT</span></h3> 
+        <p class="development_text">All engineers are fluent in the latest enterprise, mobile and web development
+           technologies. They collaborate with your team to write, and improve code on a daily basis, using proven
+            practices such as test-driven development and pair programming.</p>
+         </div>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12">
         <img src="./img/services_icons/product_icon.png" class="img-fluid" alt="">
-        <h3>PRODUCT MANAGEMENT</h3>
+         <h3><span class="prd_mgt">PRODUCT MANAGEMENT</span></h3> 
+         <p class="prd_mgt_text">Planning and development is iterative. 
+           Because we are constantly coding and testing, the products we build are always ready to go live. 
+          This iterative process allows for changes as business requirements evolve.</p>
       </div>
     </div>
-  </div>
+    <h2>Next section</h2>
+
+  <!-- </div> -->
   <div class="Portfolio_text">
     <h1>PORTFOLIO</h1></div>
-  <div class="container Portfolio_one text-center">
+ <div class="container Portfolio_one text-center">
     <div class="row">
       <div class="col-lg-3 col-md-3 col-sm-12">
         <img src="./img/portfolio/work4.jpg" class="img-fluid" alt="">
@@ -73,8 +85,6 @@
         <img src="./img/portfolio/work1.jpg" class="img-fluid" alt="">
       </div>
     </div>
-  </div>
-  <div class="container Portfolio_two">
     <div class="row">
       <div class="col-lg-3 col-md-3 col-sm-12">
         <img src="img/portfolio/work5.jpg" class="img-fluid" alt="">
@@ -89,25 +99,28 @@
         <img src="img/portfolio/work8.jpg" class="img-fluid" alt="">
       </div>
     </div>
-  </div>
-  <div class="container-fluid contact_us ">
-      <img src="./img/backgrounds/c_image.jpg" alt="">
-      <!-- <div class="contact_us"><h1>CONTACT US</h1></div> -->
+  
     </div> 
-<div class="container correspondence">
-  <div class="contact_us"><h1>CONTACT US</h1></div>
-  <form class="form-inline">
-    <div class="form_group">
-      <input type="text" class="form-control" placeholder="Name" id="name" name="">
-      <input type="email" class="form-control" placeholder="email" id="email" name="">
+    <div id="Contact_us">
+      <div class="container correspondence">
+        <div class="contact_us"><h1>CONTACT US</h1></div>
+        <form class="form-inline">
+          <div class="form_group">
+            <input type="text" class="form-control" placeholder="Name" id="name" name="">
+            <input type="email" class="form-control" placeholder="email" id="email" name="">
+          </div>
+        </form>
+        <br>
+          <div class="form_group">
+            <textarea class="form-control" rows="15" width="50%" placeholder="Your message here"></textarea>
+          </div>
+          <div class="form_group"> 
+            <input type="submit" class="btn" value="Send" id="Send" name="">
+          </div>
+      </div>      
     </div>
-  </form>
-  <br>
-    <div class="form_group">
-      <textarea class="form-control" rows="15" width="50%" placeholder="Your message here"></textarea>
-    </div>
-</div>
-<footer class="page-footer">
+    
+ <footer class="page-footer">
   <div class="container social_icons">
     <img src="./img/social_icons/twitter.png">
     <img src="./img/social_icons/dribble.png">
@@ -120,7 +133,9 @@
     <img src="./img/social_icons/flickr.png">
   </div>
   <div class="footer-copyright text-center">DELANI STUDIO <br>2019</div>
-</footer>
+</footer> 
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>

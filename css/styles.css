@@ -1,153 +1,27 @@
-*{
-  padding: 0;
-  margin: 0;
-}
-.landing-page img{
-  width: 100%;
-}
 .landing-page{
-  position: relative;
-}
-.description{
-  position: absolute;
-  top: 40%;
-  left: 30%;
-  text-align: center;
-}
-.description h1{
-  color: white;
-  font-size: 100px;
-  line-height: 5cm;
-}
-.description p{
-  color: white;
-  font-size: 28px;
-}
-.about_us {
-  position: absolute;
-  text-align: center;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 115%;
-  
-}
-.about_us p  {
-  color: black;
-  font-size: 30px;
-  white-space: nowrap;
-  line-height: 2cm;
-}
-.services {
-  position: absolute;
-  text-align: center;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 55%;
-  
-}
-.services p {
-  color: white;
-  font-size: 30px;
-  white-space: nowrap;
-  line-height: 2cm;
+  background-image: url('../img/backgrounds/h_img.jpg');
+height: 85vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
 }
 
-.services h1 {
-  color: white;
-  font-size: 40px;
-  white-space: nowrap;
-  line-height: 2cm;
-}
-.jumbotron  {
-  background-color: white;
-  height: 500px;
+#Contact_us{
+  background-image: url('../img/backgrounds/c_image.jpg');
+  height: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.what-we-do {
-  position: absolute;
-  text-align: center;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 178%;
-}
-.what-we-do h1 {
-  color: black;
-  font-size: 40px;
-  white-space: nowrap;
-  line-height: 2cm;
-}
-.products {
-  position: relative;
-  margin-top: 5%;
-  text-align: center;
-  margin-bottom: 30px;
-}
-.products img {
-  width: fit-content;
-  margin: auto;
-  display: block;
-}
-
-.Portfolio_text {
-  position: absolute;
-  text-align: center;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top:195%
-}
-.Portfolio_one {
-  position: absolute;
-  text-align: center;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 205%;
-}
-
-.Portfolio_two {
-  position: absolute;
-  text-align: center;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 223%;
-}
-.contact_us img{
-  width: 100%;
-}
-.contact_us {
-  position: relative;
-  text-align: center;
-  margin-top: 25%
-}
-.contact_us h1 {
-  color:black;
-  white-space: nowrap;
-  line-height: 2cm;
-}
-
-/* .form_group {
-  width: 100cms;
-} */
-.correspondence {
-  position: relative;
-  align-self: start;
-  vertical-align: top;
-}
-.footer-copyright{
-  padding: 40px;
-}
 .social_icons {
-  display: flex;
-  justify-content:space-around;
-  top: 2%;
-
+  padding: 45px 0 20px;
+  text-align: center;
 }
 
-
-
-
-
-
-
-
+.footer-copyright {
+  padding: 20px 0;
+}
 
 
