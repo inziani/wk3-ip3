@@ -1,14 +1,14 @@
 $(document).ready(function(){
   $("#uno").click(function(){
-    $(".design_text").show();
+    $(".design_text").toggle();
   });
 
   $("#dos").click(function(){
-    $(".development_text").show();
+    $(".development_text").toggle();
   });
 
   $("#tres").click(function(){
-    $(".prd_mgt_text").show();
+    $(".prd_mgt_text").toggle();
   });
 
 })
