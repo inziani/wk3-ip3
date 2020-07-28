@@ -48,8 +48,27 @@ width: 100vw;
 .portfolio  {
   padding: 40px;
   text-align: center;
-
 }
+.row  {
+  padding: 20px;
+  text-align: center;
+}
+.products {
+  text-align: center;
+}
+.design_text  {
+  display: none;
+  text-align: center;
+}
+.development_text  {
+  display: none;
+  text-align: center;
+}
+.prd_mgt_text  {
+  display: none;
+  text-align: center;
+}
+
 
 
 
