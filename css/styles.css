@@ -1,5 +1,5 @@
 .landing-page{
-  background-image: url('../img/backgrounds/h_img.jpg');
+background-image: url('../img/backgrounds/h_img.jpg');
 height: 85vh;
 background-position: center;
 background-repeat: no-repeat;
@@ -9,7 +9,7 @@ width: 100vw;
 
 #Contact_us{
   background-image: url('../img/backgrounds/c_image.jpg');
-  height: 25%;
+  height: 30%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,5 +23,29 @@ width: 100vw;
 .footer-copyright {
   padding: 20px 0;
 }
+
+.contact_us  {
+  background-image: url('../img/backgrounds/c_image.jpg'); 
+  text-align: center;
+  color: white;
+  padding: 45px 0;
+  background-repeat: no-repeat;
+
+  
+}
+.form_area input {
+  margin-bottom: 20px;
+  width: 18%;
+  background-color: transparent;
+  height: 50px;
+}
+
+.form_area textarea {
+  width: 36%;
+  background-color: transparent;
+  height: 350px;
+}
+
+
 
 
