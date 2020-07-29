@@ -14,5 +14,13 @@ $(document).ready(function(){
   $("#myForm").submit(function() { 
   alert($("#name").val() + " "+ "we have received your message. Thank you for reaching out to us.")
 
+  $(".portfolio").hover(function(){
+    $(".portfolio").css("background-color", "yellow");
+  });
+
+  $(".portfolio").hover(function(){
+    $(".portfolio").css("background-color", "lightgray");
+  });
+
  });
 })
