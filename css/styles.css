@@ -5,7 +5,43 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 width: 100vw;
+text-align: center;
+color: white;
+white-space: nowrap;
+line-height: 2cms;
+align-content: center;
+} 
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+  
 }
+
+.about_us {
+  padding: 50px 50px 50px;
+  text-align: center;
+  
+
+}
+.about_us p {
+  font-size: 25pt;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.services {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.services_text  {
+  text-align: center;
+  padding: 20px;
+}
+
 
 #Contact_us{
   background-image: url('../img/backgrounds/c_image.jpg');
@@ -13,6 +49,8 @@ width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+
 }
 
 .social_icons {
@@ -31,12 +69,14 @@ width: 100vw;
   padding: 45px 0;
   background-repeat: no-repeat;
 
+
 }
 .form_area input {
   margin-bottom: 20px;
   width: 18%;
   background-color: transparent;
   height: 50px;
+  color: white;
 }
 
 .form_area textarea {
@@ -68,6 +108,10 @@ width: 100vw;
   display: none;
   text-align: center;
 }
+
+
+
+
 
 
 

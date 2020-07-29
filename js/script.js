@@ -11,4 +11,8 @@ $(document).ready(function(){
     $(".prd_mgt_text").toggle();
   });
 
+  $("#myForm").submit(function() { 
+  alert($("#name").val() + " "+ "we have received your message. Thank you for reaching out to us.")
+
+ });
 })
