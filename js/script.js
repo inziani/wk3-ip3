@@ -21,6 +21,5 @@ $(document).ready(function(){
   $(".portfolio").hover(function(){
     $(".portfolio").css("background-color", "lightgray");
   });
-
  });
 })
